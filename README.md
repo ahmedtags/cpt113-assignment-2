@@ -44,3 +44,51 @@ The assignment focuses on implementing a Singly and Doubly Linked List data stru
    ./linked_list_app
    ```
 3. The program will demonstrate linked list operations and print the resulting node values to the console.
+
+---
+
+## 📸 Sample Output
+
+```
+--- iTaxPro Menu ---
+1. Display All Individuals
+2. Search Individual by Job ID
+3. Add Individual
+4. Delete Individual by Job ID
+5. Show Category
+6. Count Individuals in Tax Categories
+7. Exit
+Enter your choice: 3
+Enter Name: Ali Hassan
+Enter Job ID: J001
+Enter Annual Income: 85000
+
+Enter your choice: 3
+Enter Name: Nora Said
+Enter Job ID: J002
+Enter Annual Income: 42000
+
+Enter your choice: 1
+Name            Job ID          Annual Income   Chargeable Income       Estimated Tax
+----------------------------------------------------------------------------
+Ali Hassan      J001            85000RM         73950RM                 4450.5
+Nora Said       J002            42000RM         36540RM                 692.4
+
+Enter your choice: 6
+
+Tax Categories Count:
+Category A : 0 individuals
+Category B : 0 individuals
+Category C : 0 individuals
+Category D : 1 individuals
+Category E : 0 individuals
+Category F : 1 individuals
+Category G : 0 individuals
+Category H : 0 individuals
+Category I : 0 individuals
+Category J : 0 individuals
+
+Enter your choice: 7
+Exiting program. Goodbye
+```
+
